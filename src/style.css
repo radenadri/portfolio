@@ -1,0 +1,13 @@
+/* CSS Custom Properties Definitions */
+
+/* HTML elements */
+
+html,
+body,
+#___gatsby {
+  height: 100%;
+}
+
+div#gatsby-focus-wrapper[tabindex] {
+  height: 100%;
+}

@@ -1,0 +1,66 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "My portfolio containing all my works and my writings",
+  "version": "0.1.0",
+  "author": "Adriana Eka Prayudha <radenadriep@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^2.0.4",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.7",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "framer-motion": "^6.2.8",
+    "gatsby": "^4.11.1",
+    "gatsby-plugin-feed": "^4.11.1",
+    "gatsby-plugin-gatsby-cloud": "^4.11.1",
+    "gatsby-plugin-google-analytics": "^4.11.0",
+    "gatsby-plugin-image": "^2.11.1",
+    "gatsby-plugin-manifest": "^4.11.1",
+    "gatsby-plugin-mdx": "^3.11.1",
+    "gatsby-plugin-offline": "^5.11.1",
+    "gatsby-plugin-react-helmet": "^5.11.0",
+    "gatsby-plugin-sharp": "^4.11.1",
+    "gatsby-remark-copy-linked-files": "^5.11.0",
+    "gatsby-remark-images": "^6.11.1",
+    "gatsby-remark-prismjs": "^6.11.0",
+    "gatsby-remark-reading-time": "^1.1.0",
+    "gatsby-remark-smartypants": "^5.11.0",
+    "gatsby-source-filesystem": "^4.11.1",
+    "gatsby-transformer-remark": "^5.11.1",
+    "gatsby-transformer-sharp": "^4.11.0",
+    "image-q": "^4.0.0",
+    "prism-react-renderer": "^1.3.1",
+    "prismjs": "^1.27.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.1"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
