@@ -30,16 +30,6 @@ const theme = {
     },
   },
   components: {
-    Heading: {
-      baseStyle: (props) => ({
-        color: mode('white', 'white')(props),
-      }),
-    },
-    Text: {
-      baseStyle: (props) => ({
-        color: mode('white', 'white')(props),
-      }),
-    },
     Link: {
       baseStyle: (props) => ({
         ...purpleRing(props),
