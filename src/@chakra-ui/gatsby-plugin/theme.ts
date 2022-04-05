@@ -32,12 +32,12 @@ const theme = {
   components: {
     Heading: {
       baseStyle: (props) => ({
-        color: mode('gray.700', 'white')(props),
+        color: mode('white', 'white')(props),
       }),
     },
     Text: {
       baseStyle: (props) => ({
-        color: mode('gray.700', 'white')(props),
+        color: mode('white', 'white')(props),
       }),
     },
     Link: {
