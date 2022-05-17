@@ -8,6 +8,6 @@ body,
   height: 100%;
 }
 
-div#gatsby-focus-wrapper[tabindex] {
+#gatsby-focus-wrapper[tabindex] {
   height: 100%;
 }

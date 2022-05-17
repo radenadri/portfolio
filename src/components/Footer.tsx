@@ -11,6 +11,7 @@ const Footer = () => {
         © 2022 Built with
         <Link
           color="purple.500"
+          isExternal
           mx="1"
           href="https://www.gatsbyjs.com">
           Gatsby
@@ -18,6 +19,7 @@ const Footer = () => {
         &amp;
         <Link
           color="purple.500"
+          isExternal
           mx="1"
           href="https://chakra-ui.com">
           Chakra UI

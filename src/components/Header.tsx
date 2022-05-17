@@ -8,6 +8,7 @@ import {
   Collapse,
   Link,
   useDisclosure,
+  Button,
 } from '@chakra-ui/react';
 import {
   HamburgerIcon,
@@ -70,7 +71,7 @@ const DesktopNav = () => {
     <Stack
       direction="row"
       alignItems="center"
-      spacing="4">
+      spacing="8">
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Link
@@ -89,6 +90,12 @@ const DesktopNav = () => {
           </Link>
         </Box>
       ))}
+      <Button
+        as={Link}
+        href="https://drive.google.com/drive/folders/1tQ-XdvNNTeTvO3ubBxNL_075NFa0eARd"
+        isExternal
+        download
+        variant="primary">Resume</Button>
     </Stack>
   );
 };
@@ -101,6 +108,11 @@ const MobileNav = () => {
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
+      <Button
+        as={Link}
+        href="https://drive.google.com/drive/folders/1tQ-XdvNNTeTvO3ubBxNL_075NFa0eARd"
+        isExternal
+        variant="primary">Resume</Button>
     </Stack>
   );
 };
@@ -144,6 +156,10 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Work',
     href: '/work',
+  },
+  {
+    label: 'Projects',
+    href: '/projects',
   },
   {
     label: 'Journal',

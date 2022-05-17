@@ -32,6 +32,38 @@ module.exports = {
         'jobDescription': 'Responsible for providing the solution regarding how the website works or how the website looks. Structuring the data so it can be consumed by mobile apps too. Making sure the website works well as client expected.',
         'logo': 'penta.png',
       }
+    ],
+    projects: [
+      {
+        'title': 'Cooktopia',
+        'url': 'https://cooktopia.netlify.app',
+        'description': 'Cooktopia is a website that allows users to share their recipes with others. Users can also look for recipes based on categories. The website is built with Gatsby and Contentful.',
+        'date': '2022-05-09',
+      },
+      {
+        'title': 'Countdown',
+        'url': 'https://bns-timer.netlify.app',
+        'description': 'Frontend mentor challenge to show the countdown based on user preferred values.',
+        'date': '2022-05-10',
+      },
+      {
+        'title': 'Advice Generator',
+        'url': 'https://bns-advice-generator.netlify.app',
+        'description': 'Frontend mentor challenge to show the advice based on Advice Slip API.',
+        'date': '2022-05-11',
+      },
+      {
+        'title': 'Tic Tac Toe',
+        'url': 'https://bns-tictactoe.netlify.app',
+        'description': 'Frontend mentor challenge to show the tic tac toe game.',
+        'date': '2022-05-12',
+      },
+      {
+        'title': 'devprofile',
+        'url': 'https://bns-devprofile.netlify.app',
+        'description': 'Frontend mentor challenge to fetch the GitHub profile based on username.',
+        'date': '2022-05-13',
+      }
     ]
   },
   plugins: [

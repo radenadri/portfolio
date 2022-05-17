@@ -85,7 +85,7 @@ const Me: React.FC<any> = ({ data, location }) => {
       <Seo title={frontmatter.title} />
       <PageHeader text="About Me" description="Short bio about me" />
       <MDXProvider components={MDXComponents}>
-        <MDXRenderer data="test">{body}</MDXRenderer>
+        <MDXRenderer>{body}</MDXRenderer>
       </MDXProvider>
       <Box mt="8" p={{ base: 0, md: 8 }}>
         <Heading

@@ -39,6 +39,17 @@ const theme = {
       baseStyle: (props) => ({
         ...purpleRing(props),
       }),
+      variants: {
+        primary: {
+          bg: 'purple.600',
+          color: 'white',
+          fontFamily: 'Satoshi-Medium',
+          fontWeight: '500',
+          _hover: {
+            bg: 'purple.500',
+          }
+        }
+      }
     },
     Input: {
       variants: {

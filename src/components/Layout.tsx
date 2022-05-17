@@ -11,7 +11,7 @@ const Layout = ({ location, children, isFull }) => {
   return (
     <Flex
       flexDir="column"
-      maxW="960px"
+      maxW="1280px"
       h="100%"
       mx="auto"
       px={[4, 8]}

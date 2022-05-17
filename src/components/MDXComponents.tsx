@@ -152,7 +152,7 @@ const LinkedHeading = (props: HTMLChakraProps<"h2">) => {
 
 const Image = (props) => {
   return (
-    <Img {...props} />
+    <Img rounded="md" {...props} />
   );
 };
 
@@ -196,7 +196,7 @@ const MDXComponents = {
   ol: (props) => <chakra.ol apply="mdx.ul" {...props} />,
   li: (props) => <chakra.li pb="4px" {...props} />,
   blockquote: (props) => (
-    <Box>
+    <Box px={4}>
       <Alert
         as="blockquote"
         role="none"

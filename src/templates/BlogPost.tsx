@@ -20,7 +20,8 @@ const BlogPostTemplate = ({ data, location }) => {
       <VStack
         position="relative"
         alignItems="stretch"
-        w="full"
+        maxW="container.md"
+        mx="auto"
         spacing={8}
         p={{ base: 0, md: 8 }}>
         <VStack alignItems="flex-start" spacing={3}>
@@ -70,7 +71,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        date(formatString: "YYYY MMMM Do")
+        date(formatString: "MMMM Do, YYYY")
       }
     }
     site {

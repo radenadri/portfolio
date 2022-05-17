@@ -12,7 +12,7 @@ import Seo from "@components/SEO"
 const WorkPost = ({ frontmatter }) => {
   const { title, description, img, github, link, uses } = frontmatter
   const imgSrc = getImage(img?.childImageSharp?.gatsbyImageData)
-  console.log(uses);
+
   return (
     <Box as="article">
       <VStack
