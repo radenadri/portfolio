@@ -35,6 +35,12 @@ module.exports = {
     ],
     projects: [
       {
+        'title': 'CinemaLand',
+        'url': 'https://cinemaland.netlify.app',
+        'description': 'CinemaLand is a movie listing web apps to showing the usage of OMDB API.',
+        'date': '2022-05-19',
+      },
+      {
         'title': 'Cooktopia',
         'url': 'https://cooktopia.netlify.app',
         'description': 'Cooktopia is a website that allows users to share their recipes with others. Users can also look for recipes based on categories. The website is built with Gatsby and Contentful.',
