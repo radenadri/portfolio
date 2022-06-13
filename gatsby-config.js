@@ -35,6 +35,18 @@ module.exports = {
     ],
     projects: [
       {
+        'title': 'Gatsby + TailwindCSS Starter',
+        'url': 'https://gatsby-tailwindcss-starter.radenadri.xyz',
+        'description': 'Gatsby with TailwindCSS pre-installed for your next awesome project.',
+        'date': '2022-06-13',
+      },
+      {
+        'title': 'Horatio',
+        'url': 'https://horatio.radenadri.xyz',
+        'description': 'Horatio landing page built with React + GSAP, for learning purpose',
+        'date': '2022-06-09',
+      },
+      {
         'title': 'CinemaLand',
         'url': 'https://cinemaland.radenadri.xyz',
         'description': 'CinemaLand is a movie listing web apps to showing the usage of OMDB API.',
